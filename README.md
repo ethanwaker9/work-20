@@ -64,8 +64,8 @@ To check the measurements:
 ```
 python3 bench/run_bench.py --reps 2      # writes results/bench.json
 python3 bench/npsweep.py                 # writes results/npsweep.json
-python3 bench/make_tables.py             # writes ../final_paper/tables/*.tex
-python3 bench/make_figures.py            # writes ../final_paper/figures/*.pdf
+python3 bench/make_tables.py             
+python3 bench/make_figures.py            
 ```
 
 The grid of `run_bench.py` varies the threshold at a fixed ring of 64 members,
